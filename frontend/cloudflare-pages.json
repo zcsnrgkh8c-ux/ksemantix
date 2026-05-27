@@ -1,0 +1,11 @@
+# Cloudflare Pages 配置文件
+# 将此文件放在 frontend 目录
+
+{
+  "build_command": "npm run build",
+  "build_output_dir": "dist",
+  "dev_command": "npm run dev",
+  "environment_variables": {
+    "NODE_VERSION": "18"
+  }
+}

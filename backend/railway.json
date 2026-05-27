@@ -1,0 +1,8 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "nixpacks": {
+      "aptPkgs": ["openjdk-11-jdk-headless", "curl"]
+    }
+  }
+}
